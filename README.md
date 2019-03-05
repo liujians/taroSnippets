@@ -6,15 +6,15 @@ taroSnippets 是一款快速生成 taro 页面结构的用户代码片段插件
 
 ![图片](./images/taroSnippets.gif)
 
-> taropage
+> taroPage
 
 ```javascript
 import Taro from '@tarojs/taro';
 import { View, Button } from '@tarojs/components';
 
-export default class Index extends Taro.Component {
-  constructor() {
-    super(...arguments);
+export default class template extends Taro.Component {
+  constructor(props) {
+    super(props);
   }
   componentWillMount() {}
   render() {
@@ -23,6 +23,28 @@ export default class Index extends Taro.Component {
         <Button>template</Button>
       </View>
     );
+  }
+}
+```
+
+> taroPageLess
+
+```javascript
+import Taro from '@tarojs/taro'
+import { View, Text } from '@tarojs/components'
+import styles from './index.module.less'
+
+export default class Template extends Taro.Component {
+  constructor (props) {
+    super(props)
+  }
+  componentWillMount () {}
+  render () {
+    return (
+      <View className={styles.container}>
+        <Text>Template</Text>
+      </View>
+    )
   }
 }
 ```
