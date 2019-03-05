@@ -1,20 +1,30 @@
 {
-    "name": "tarosnippets",
-    "displayName": "taroSnippets",
-    "description": "taro的用户代码片段",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.31.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "json",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+  "name": "tarosnippets",
+  "displayName": "taroSnippets",
+  "description": "taro的用户代码片段,快速生成页面基本代码",
+  "version": "1.0.1",
+  "publisher": "liujians",
+  "engines": {
+    "vscode": "^1.31.0"
+  },
+  "icon": "images/logo.png",
+  "keywords": [
+    "小程序",
+    "taro"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liujians/taroSnippets.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "json",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
 }
