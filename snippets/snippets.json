@@ -1,0 +1,25 @@
+{
+  "taroPage": {
+    "scope": "javascript,typescript",
+    "prefix": "taroPage",
+    "body": [
+      "import Taro from '@tarojs/taro'",
+      "import { View, Button } from '@tarojs/components'",
+      "",
+      "export default class Index extends Taro.Component {",
+      "  constructor () {",
+      "    super(...arguments)",
+      "  }",
+      "  componentWillMount () {}",
+      "  render () {",
+      "    return (",
+      "      <View>",
+      "        <Button>template</Button>",
+      "      </View>",
+      "    )",
+      "  }",
+      "}"
+    ],
+    "description": "mp-school-recruit"
+  }
+}
