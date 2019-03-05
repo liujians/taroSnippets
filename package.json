@@ -2,7 +2,7 @@
   "name": "tarosnippets",
   "displayName": "taroSnippets",
   "description": "taro的用户代码片段,快速生成页面基本代码",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "liujians",
   "engines": {
     "vscode": "^1.31.0"
