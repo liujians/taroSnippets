@@ -6,7 +6,7 @@
       "import Taro from '@tarojs/taro'",
       "import { View, Button } from '@tarojs/components'",
       "",
-      "export default class Index extends Taro.Component {",
+      "export default class ${1:Template} extends Taro.Component {",
       "  constructor (props) {",
       "    super(props)",
       "  }",
@@ -14,12 +14,36 @@
       "  render () {",
       "    return (",
       "      <View>",
-      "        <Button>template</Button>",
+      "        <Button>${1:Template}</Button>",
       "      </View>",
       "    )",
       "  }",
       "}"
     ],
-    "description": "mp-school-recruit"
+    "description": "taro基本结构page"
+  },
+  "taroLess": {
+    "scope": "javascript,typescript",
+    "prefix": "taroPageLess",
+    "body": [
+      "import Taro from '@tarojs/taro'",
+      "import { View, Text } from '@tarojs/components'",
+      "import styles from './index.module.less'",
+      "",
+      "export default class ${1:Template} extends Taro.Component {",
+      "  constructor (props) {",
+      "    super(props)",
+      "  }",
+      "  componentWillMount () {}",
+      "  render () {",
+      "    return (",
+      "      <View className={styles.${2:container}}>",
+      "        <Text>${1:Template}</Text>",
+      "      </View>",
+      "    )",
+      "  }",
+      "}"
+    ],
+    "description": "taro基本结构less版本"
   }
 }
