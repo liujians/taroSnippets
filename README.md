@@ -4,7 +4,7 @@ taroSnippets 是一款快速生成 taro 页面结构的用户代码片段插件
 
 效果图:
 
-![图片](https://s2.ax1x.com/2019/03/05/kj9rJP.gif)
+![图片](./images/taroSnippets.gif)
 
 > taropage
 
