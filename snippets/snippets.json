@@ -1,6 +1,6 @@
 {
   "taroPage": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "taroPage",
     "body": [
       "import Taro from '@tarojs/taro'",
@@ -23,7 +23,7 @@
     "description": "taro基本结构page"
   },
   "taroLess": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "taroPageLess",
     "body": [
       "import Taro from '@tarojs/taro'",
